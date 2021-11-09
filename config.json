@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Camilo Henríquez "
+  },
+  "text": {
+    "more": "La red tiene todos los seguidores y seguidos en Instagram de: Ale, Lila, Camilo, Lio y Fede. Estos son considerados usuarios principales. \n\nMi plan es observar y pensar en qué puede ser interesante de descubrir. \nPor ejemplo: qué personas probablemente viven en Aarhus? quienes son los más influyentes para llegar a otras personas? Qué personas podemos conocer en común sin saber? \n\nPara entender la red: \n- Entre más al centro está el ususario de Insta, mejor conectado con los demás está. \n- Cada lina tiene una flecha que indica si el usuario te sigue o lo sigues. \n\nLos colores indican: \n- cafe claro: sólo tiene 1 una conexión con otra persona (si está cerca de un usuario principal, es porque te sigue. Si está lejos, es porque tú le sigues, pero él no a ti).\n- rosado claro: tiene dos conexiones. generalmente es porque se siguen mutuamente con un usuario principal. \n- verde claro: tiene 3 conexiones. \n- azul claro: tiene 4 conexiones. \n- azul oscuro: tiene 5 conexiones. \n- naranjo: tiene 6 conexiones. \n- amarillo oscurro: tiene 7 conexiones\n- rojo oscuro: tiene 8 conexiones. \n- calipso o verde agua?: tiene 9 conexiones \n- purpura: tiene 10 conexiones. \n- verde oscuro: tiene 12 conexiones\n\nA quien puedo bajarle seguidores ahora para entender mejor como se conectan nuestros conocidos en Aarhus que les guste salir de fiesta? ",
+    "intro": "Red de seguidores y seguidos de Ale, Lila, Camilo, Lio y Fede en instagram. \nUn intento de mapear nuestras redes sociales. ",
+    "title": "Ing network aarhus"
+  },
+  "legend": {
+    "edgeLabel": "seguidores/dos",
+    "colorLabel": "cantadidad de conexiones",
+    "nodeLabel": "usuarios de instagram"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
